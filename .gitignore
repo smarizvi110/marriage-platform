@@ -1,0 +1,25 @@
+# Build artifacts
+/target/
+/**/target/
+
+# Yew build files
+/frontend/pkg/
+
+# Rust specific
+**/*.rs.bk
+**/*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# VS Code settings
+.vscode/
+
+# Rust analysis files
+Cargo.lock
+
+# Backup files
+*~
+*.swp

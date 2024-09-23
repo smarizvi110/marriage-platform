@@ -1,0 +1,8 @@
+[package]
+name = "marriage_platform_frontend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = ">=0.20"
+wasm-bindgen = ">=0.2"

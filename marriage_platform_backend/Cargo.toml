@@ -1,0 +1,18 @@
+[package]
+name = "marriage_platform_backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = ">=0.6"
+axum-server = ">=0.6"
+tokio = { version = ">=1", features = ["full"] }
+tower = ">=0.4"
+tower-http = { version = ">=0.3", features = ["trace"] }
+serde = { version = ">=1", features = ["derive"] }
+serde_json = ">=1"
+sqlx = { version = ">=0.6", features = ["postgres", "runtime-tokio-native-tls", "macros"] }
+jsonwebtoken = ">=7.0"
+bcrypt = ">=0.12"
+dotenv = ">=0.15"
+thiserror = ">=1.0"
